@@ -10,6 +10,7 @@ namespace AlgoPractice.Console
     {
         static void Main(string[] args)
         {
+                       
         }
     }
 }
