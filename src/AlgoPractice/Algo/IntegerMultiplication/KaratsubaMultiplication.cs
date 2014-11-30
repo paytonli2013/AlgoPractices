@@ -8,8 +8,7 @@ namespace Algo.IntegerMultiplication
 {
     public class KaratsubaMultiplication : IAlgo<IInput<BigInteger, BigInteger>, BigInteger>
     {
-
-        const int KaratsubaCutoff = 2;
+        const int KaratsubaCutoff = 10;
 
         #region IAlgo<IInput<int,int>,int> Members
 
@@ -20,6 +19,9 @@ namespace Algo.IntegerMultiplication
 
         BigInteger Multiply(BigInteger x, BigInteger y)
         {
+            if (x.Equals(BigInteger.Zero) || y.Equals(BigInteger.Zero))
+                return 0;
+
             int n = Math.Max(GetMSB(x), GetMSB(y));
 
             if (n < KaratsubaCutoff)

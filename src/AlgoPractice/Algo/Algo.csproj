@@ -45,8 +45,6 @@
   <ItemGroup>
     <Compile Include="IAlgo.cs" />
     <Compile Include="IInput.cs" />
-    <Compile Include="Input.cs" />
-    <Compile Include="Input_2.cs" />
     <Compile Include="IntegerMultiplication\KaratsubaMultiplication.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
