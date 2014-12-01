@@ -53,6 +53,7 @@
   <ItemGroup>
     <Compile Include="IntegerMultiplication\KaratsubaTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Sort\MergeSortTest.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Algo\Algo.csproj">
